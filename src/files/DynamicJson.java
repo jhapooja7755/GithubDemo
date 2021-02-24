@@ -21,6 +21,7 @@ public class DynamicJson {
 		JsonPath js = new JsonPath(response);
 		String id =  js.getString("ID");
 		System.out.println(id);
+		System.out.println("my name is pooja");
 	}
 
 }
